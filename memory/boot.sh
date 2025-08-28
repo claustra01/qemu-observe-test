@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # generate image
-qemu-img create -f qcow2 vm.img 2G
+qemu-img create -f qcow2 vm.img 256M
 
 # boot guest
 sudo qemu-system-x86_64 \
