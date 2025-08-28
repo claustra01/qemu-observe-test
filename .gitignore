@@ -1,2 +1,4 @@
 *.img
 *.vmcore
+*.iso
+*.qcow2
